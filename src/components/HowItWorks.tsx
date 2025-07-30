@@ -136,11 +136,11 @@ const HowItWorks = () => {
                       </div>
                       
                       {/* Image Side */}
-                      <div className={`flex items-center ${isEven ? 'lg:order-1' : 'lg:order-2'}`}>
+                      <div className={`flex items-center justify-center ${isEven ? 'lg:order-1' : 'lg:order-2'}`}>
                         <img 
                           src={stepImages[index]} 
                           alt={`Step ${stepItem.step}: ${stepItem.title}`}
-                          className="w-full aspect-square object-contain rounded-3xl hover:scale-105 transition-all duration-500"
+                          className="w-80 h-80 object-cover rounded-2xl hover:scale-105 transition-all duration-500 shadow-lg"
                         />
                       </div>
                       
